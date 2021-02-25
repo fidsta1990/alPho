@@ -65,6 +65,7 @@ li {
   background: transparent;
   cursor: pointer;
   transition: var(--transit);
+  border-radius: var(--radius);
 }
 
 .btn:hover {
@@ -170,4 +171,70 @@ header {
     width: 40vw;
     height: auto;
   }
+
+  .navbar .nav-links a:hover {
+    padding-left: 0;
+  }
+}
+
+/* MAIN */
+
+main {
+  min-height: 100vh;
+  margin: 10rem 0;
+}
+
+main .title {
+  color: var(--primeClr);
+  letter-spacing: var(--space);
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.409);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+main .title span {
+  color: var(--secClr);
+}
+
+/* FORM SECTION */
+
+.form-sec {
+  padding: 4rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-group {
+  width: 100%;
+  position: relative;
+}
+
+.form-group .form-control {
+  width: 100%;
+  font-size: 3rem;
+  padding: 1rem;
+  border-radius: var(--radius);
+  border: 0;
+  box-shadow: 0 0 10px var(--primeClr);
+}
+
+.form-group .form-btn {
+  color: var(--primeClr);
+  border: 0;
+  background: var(--secClr);
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding-top: 0.5rem;
+
+}
+.form-group .form-btn:hover {
+  color: #fff;
 }
