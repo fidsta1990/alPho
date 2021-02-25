@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+/* GLOBAL STYLES */
+
+:root {
+  --space: 2px;
+  --primeClr: #58e9e4;
+  --secClr: #201e27;
+  --transit: all 0.3s ease-in;
+  --radius: 0.5rem;
+  --shadow: 0 0 10px grey;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.btn {
+  font-size: 2.5rem;
+  letter-spacing: var(--space);
+  color: #000;
+  border: 3px solid var(--primeClr);
+  padding: 1rem 2rem;
+  text-transform: capitalize;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #fff;
+  background: var(--primeClr);
+  box-shadow: var(--shadow);
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.section-center {
+  width: 100%;
+  max-width: 95vw;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .section-center {
+    max-width: 90vw;
+  }
+}
