@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="#" type="image/x-icon" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <title>alPho || album</title>
+  </head>
+  <body>
+    <!-- header -->
+    <nav class="navbar">
+      <div class="logo">
+        <h1><span>al</span>Pho</h1>
+        <button class="btn">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#" class="link">home</a></li>
+        <li><a href="#" class="link">gallery</a></li>
+        <li><a href="#" class="link">contact</a></li>
+      </ul>
+    </nav>
+    <!-- end header -->
+
+    <!-- main -->
+    <main>
+      <!-- search -->
+      <section class="form-sec">
+        <form class="form">
+          <div class="form-group">
+            <input type="text" class="form-control" />
+            <button type="submit" class="btn form-btn">search</button>
+          </div>
+        </form>
+      </section>
+      <!-- album sect -->
+      <section class="album">
+        <div class="section-center">
+          <section class="card">
+            <!-- single card -->
+            <article class="card">
+              <img
+                src="./img/arno-senoner-x_JDM3uzXN0-unsplash.jpg"
+                alt="arc one"
+              />
+              <div class="card-info">
+                <p>Arc 1</p>
+                <span>Download</span>
+              </div>
+            </article>
+            <!-- end single card -->
+            <!-- single card -->
+            <article class="card">
+              <img
+                src="./img/matej-sefcik-LWnPS7KdZQI-unsplash.jpg"
+                alt="arc two"
+              />
+              <div class="card-info">
+                <p>Arc 2</p>
+                <span>Download</span>
+              </div>
+            </article>
+            <!-- end single card -->
+            <!-- single card -->
+            <article class="card">
+              <img
+                src="./img/nica-cn-5J96f9h_l-M-unsplash.jpg"
+                alt="arc three"
+              />
+              <div class="card-info">
+                <p>Arc 3</p>
+                <span>Download</span>
+              </div>
+            </article>
+            <!-- end single card -->
+          </section>
+        </div>
+      </section>
+      <!-- end album sect -->
+    </main>
+    <!-- end main -->
+
+    <!-- footer -->
+    <footer>
+      <p>created by © Fidel <span id="date"></span></p>
+    </footer>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
